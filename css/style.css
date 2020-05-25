@@ -18,7 +18,18 @@ a {
     right: 30px;
 }
 
+.learn-more {
+    text-align: center;
+}
+
 .sign-in {
+}
+
+input {
+    width: 320px;
+    padding: 10px;
+
+    
 }
 
 .intuit-logo {
