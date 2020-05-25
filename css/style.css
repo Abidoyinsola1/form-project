@@ -9,13 +9,17 @@ body {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #0077C5;
 }
 
 .side-nav {
     display: inline-block;
     position: absolute;
     right: 30px;
+}
+
+.intuit-logo img {
+    opacity: .7;
 }
 
 .learn-more {
@@ -27,28 +31,57 @@ a {
 
 input {
     width: 320px;
-    padding: 10px;
-
-    
+    padding: 12px;
 }
 
 .intuit-logo {
-    width: 800px;
-    margin: auto;
-    padding: 20px;
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
 }
+
 
 .container {
     width: 380px;
-    margin: 50px auto;
+    margin: 5px auto;
     background-color: white;
-    padding: 40px;
+    padding: 5px 20px;
     border-radius: 5px;
     border: 1px  solid rgb(209, 208, 208);
+}
 
+form {
+    padding: 15px;
 }
 
 h3 {
     font-size: 28px;
     font-weight: 400;
+}
+
+.email {
+    margin: 10px 0px;
+}
+
+.phone {
+    margin: 30px 0px;
+    padding: 10px 0px;
+}
+
+div span {
+    font-size: 10px;
+    
+}
+
+.password {
+    padding-bottom: 30px;
+}
+
+.create-account {
+    background-color: #0077C5;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
 }
