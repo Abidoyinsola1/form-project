@@ -1,15 +1,43 @@
 body {
-    font-family: 'Roboto', sans-serif;
     float: none;
     padding: 10px 30px 10px 30px;  
     background-color: #eceef1;
+    color: rgb(85, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
 }
 
 .side-nav {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
 
+.sign-in {
 }
 
 .intuit-logo {
+    width: 800px;
+    margin: auto;
     padding: 20px;
-    width: 800px
+}
+
+.container {
+    width: 380px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    border: 1px  solid rgb(209, 208, 208);
+
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 400;
 }
