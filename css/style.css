@@ -88,6 +88,7 @@ div span {
 .create-account {
     background-color: #0077C5;
     color: white;
+    font: "Font Awesome 5 Free", "Open Sans";
     font-size: 20px;
     width: 100%;
     height: 50px;
@@ -100,5 +101,26 @@ p i {
 
 .recaptcha {
     font-size: 11px;
-    background-color: rgb(85, 85, 85);
+    background-color: #eceef1;
+    padding: 20px 40px;
+}
+
+footer p {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline; 
+    
+}
+
+ul li a {
+    color: rgb(114, 112, 112);
+    padding: 0px 10px;
+    
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }
