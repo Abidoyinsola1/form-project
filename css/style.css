@@ -4,6 +4,7 @@ Project: HTML Forms
 Author: Abiola Doyinsola Adeyemi
 */
 
+
 body {
     float: none;
     padding: 10px 30px 10px 30px;  
@@ -82,18 +83,18 @@ h3 {
     text-align: center;
 }
 .email {
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 .phone {
     margin: 20px 0px;
-    padding: 5px 0px;
+    padding: 5px 0px; 
 }
 div span {
     font-size: 11px;
-    font-weight: bold;
+    font-weight: bold; 
 }
 .password {
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
 }
 .create-account {
     background-color: #0077C5;
@@ -102,19 +103,19 @@ div span {
     width: 95%;
     height: 50px;
     box-shadow: 1px;
-    border-radius: 7px;
+    border-radius: 7px; 
 }
 .condition {
     font-size: 12px;
     line-height: 20px;
-    text-align: center;
+    text-align: center; 
 }
 .recaptcha p {
     font-size: 11px;
-    text-align: center;
+    text-align: center; 
 }
 footer {
-    text-align: center;
+    text-align: center; 
 }
 footer p {
     font-size: 13px;
@@ -123,13 +124,12 @@ footer p {
 ul li {
     list-style: none;
     display: inline; 
-    
 }
 ul li a {
     color: rgb(114, 112, 112);
     padding: 0px 10px;
-    font-size: 13px;
+    font-size: 13px; 
 }
 ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline; 
 }
