@@ -1,3 +1,10 @@
+/*
+Stylesheet
+Project: HTML Forms
+Author: Abiola Doyinsola Adeyemi
+*/
+
+
 body {
     float: none;
     padding: 10px 30px 10px 30px;  
@@ -101,7 +108,7 @@ h3 {
 }
 
 div span {
-    font-size: 10px;
+    font-size: 11px;
     
 }
 
@@ -131,7 +138,7 @@ div span {
     border-radius: 7px;
 }
 
-.condition{
+.condition {
     font-size: 12px;
     line-height: 20px;
     text-align: center;
