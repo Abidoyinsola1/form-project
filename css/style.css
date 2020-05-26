@@ -2,7 +2,7 @@ body {
     float: none;
     padding: 10px 30px 10px 30px;  
     background-color: #eceef1;
-    color: rgb(114, 112, 112);
+    color: rgb(99, 97, 97);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -32,6 +32,12 @@ a {
     font-size: 12px;
 }
 
+.intuit-logo {
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+}
+
 #sign-button {
     position: absolute;
     right: 28px;
@@ -51,21 +57,21 @@ input {
     border-radius: 5px;
 }
 
-.intuit-logo {
-    display: grid;
-    justify-content: center;
-    margin-top: 50px;
+
+.second-logo {
+    opacity: .7;
+    margin-top: -10px;
 }
 
 .box-content {
-    width: 393px;
+    width: 400px;
     margin: 0px auto;
     border-radius: 3px;
     border: 1px  solid rgb(209, 208, 208);
 }
 
 .container {
-    width: 379px;
+    width: 387px;
     background-color: white;
     padding-top: 20px;
     padding-left: 12px;
@@ -103,6 +109,18 @@ div span {
     padding-bottom: 30px;
 }
 
+#password {
+    background-image: url("../img/lock.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#password:focus {
+    background-image:none;
+    text-indent:0px
+}
+
 .create-account {
     background-color: #0077C5;
     color: white;
@@ -128,6 +146,11 @@ footer {
     text-align: center;
 }
 
+footer p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
 ul li {
     list-style: none;
     display: inline; 
@@ -137,7 +160,7 @@ ul li {
 ul li a {
     color: rgb(114, 112, 112);
     padding: 0px 10px;
-    
+    font-size: 12px;
 }
 
 ul li a:hover {
