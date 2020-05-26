@@ -4,7 +4,6 @@ Project: HTML Forms
 Author: Abiola Doyinsola Adeyemi
 */
 
-
 body {
     float: none;
     padding: 10px 30px 10px 30px;  
@@ -13,38 +12,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-
 a {
     text-decoration: none;
     color: #0077C5;
 }
-
 .side-nav {
     position: absolute;
     right: 150px;
     top: 0px;
 }
-
 .side-nav p {
     font-size: 13px;
     line-height: 20px;
     text-align: center;
 }
-
 .intuit-logo img {
     opacity: .6;
 }
-
 .learn-more {
     font-size: 12px;
 }
-
 .intuit-logo {
     display: grid;
     justify-content: center;
     margin-top: 40px;
 }
-
 #sign-button {
     position: absolute;
     right: 28px;
@@ -56,66 +48,53 @@ a {
     border: 1px black solid;  
     border-radius: 5px;
 }
-
 input {
     width: 320px;
     padding: 12px 10px;
     border: 1px rgb(158, 158, 158) solid;
     border-radius: 5px;
 }
-
-
 .second-logo {
     opacity: .7;
     margin-top: -10px;
 }
-
 .box-content {
     width: 400px;
     margin: 0px auto;
     border-radius: 3px;
     border: 1px  solid rgb(209, 208, 208);
 }
-
 .container {
     width: 387px;
     background-color: white;
     padding-top: 20px;
     padding-left: 12px;
 }
-
 form {
     padding: 0px 15px;
 }
-
 .first-para {
     text-align: center;
 }
-
 h3 {
     font-size: 28px;
     font-weight: 400;
     text-align: center;
 }
-
 .email {
     margin-top: 10px;
 }
-
 .phone {
     margin: 20px 0px;
     padding: 5px 0px;
 }
-
 div span {
     font-size: 11px;
     font-weight: bold;
 }
-
 .password {
     padding-bottom: 30px;
 }
-
 .create-account {
     background-color: #0077C5;
     color: white;
@@ -125,39 +104,31 @@ div span {
     box-shadow: 1px;
     border-radius: 7px;
 }
-
 .condition {
     font-size: 12px;
     line-height: 20px;
     text-align: center;
 }
-
 .recaptcha p {
     font-size: 11px;
     text-align: center;
 }
-
 footer {
     text-align: center;
 }
-
 footer p {
     font-size: 13px;
     line-height: 20px;
 }
-
 ul li {
     list-style: none;
     display: inline; 
-    
 }
-
 ul li a {
     color: rgb(114, 112, 112);
     padding: 0px 10px;
     font-size: 13px;
 }
-
 ul li a:hover {
     text-decoration: underline;
 }
