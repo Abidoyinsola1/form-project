@@ -6,7 +6,6 @@ Author: Abiola Doyinsola Adeyemi
 
 
 body {
-    float: none;
     padding: 10px 30px 10px 30px;
     background-color: #eceef1;
     color: rgb(99, 97, 97);
@@ -25,14 +24,8 @@ a {
     top: 0;
 }
 
-.side-nav p {
-    font-size: 13px;
-    line-height: 20px;
-    text-align: center;
-}
-
 .intuit-logo img {
-    opacity: .6;
+    opacity: 0.6;
 }
 
 .learn-more {
@@ -53,7 +46,7 @@ a {
     color: white;
     font-size: 18px;
     padding: 7px 12px;
-    border: 1px black solid;  
+    border: 1px black solid;
     border-radius: 5px;
 }
 
@@ -133,11 +126,6 @@ div span {
     text-align: center;
 }
 
-.recaptcha p {
-    font-size: 11px;
-    text-align: center;
-}
-
 footer {
     text-align: center;
 }
@@ -147,6 +135,18 @@ footer p {
     line-height: 20px;
 
 }
+
+.side-nav p {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.recaptcha p {
+    font-size: 11px;
+    text-align: center;
+}
+
 
 ul li {
     list-style: none;
