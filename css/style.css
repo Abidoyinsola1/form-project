@@ -22,7 +22,7 @@ a {
 .side-nav {
     position: absolute;
     right: 150px;
-    top: 0px;
+    top: 0;
 }
 
 .side-nav p {
@@ -71,7 +71,7 @@ input {
 
 .box-content {
     width: 400px;
-    margin: 0px auto;
+    margin: 0 auto;
     border-radius: 3px;
     border: 1px  solid rgb(209, 208, 208);
 }
@@ -84,7 +84,7 @@ input {
 }
 
 form {
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
 .first-para {
@@ -156,7 +156,7 @@ ul li {
 
 ul li a {
     color: rgb(114, 112, 112);
-    padding: 0px 10px;
+    padding: 0 10px;
     font-size: 13px;
 }
 
