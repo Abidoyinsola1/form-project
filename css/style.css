@@ -98,11 +98,13 @@ h3 {
 
 .email {
     margin-top: 10px;
+
 }
 
 .phone {
     margin: 20px 0;
     padding: 5px 0;
+
 }
 
 div span {
@@ -123,25 +125,21 @@ div span {
     height: 50px;
     box-shadow: 1px;
     border-radius: 7px;
-
 }
 
 .condition {
     font-size: 12px;
     line-height: 20px;
     text-align: center;
-
 }
 
 .recaptcha p {
     font-size: 11px;
     text-align: center;
-
 }
 
 footer {
     text-align: center;
-
 }
 
 footer p {
@@ -160,10 +158,8 @@ ul li a {
     color: rgb(114, 112, 112);
     padding: 0px 10px;
     font-size: 13px;
-
 }
 
 ul li a:hover {
     text-decoration: underline;
-    
 }
