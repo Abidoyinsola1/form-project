@@ -98,13 +98,11 @@ h3 {
 
 .email {
     margin-top: 10px;
-
 }
 
 .phone {
     margin: 20px 0;
     padding: 5px 0;
-
 }
 
 div span {
@@ -113,7 +111,8 @@ div span {
 }
 
 .password {
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
+
 }
 
 .create-account {
@@ -123,40 +122,48 @@ div span {
     width: 95%;
     height: 50px;
     box-shadow: 1px;
-    border-radius: 7px; 
+    border-radius: 7px;
+
 }
 
 .condition {
     font-size: 12px;
     line-height: 20px;
-    text-align: center; 
+    text-align: center;
+
 }
 
 .recaptcha p {
     font-size: 11px;
-    text-align: center; 
+    text-align: center;
+
 }
 
 footer {
-    text-align: center; 
+    text-align: center;
+
 }
 
 footer p {
     font-size: 13px;
     line-height: 20px;
+
 }
 
 ul li {
     list-style: none;
-    display: inline; 
+    display: inline;
+
 }
 
 ul li a {
     color: rgb(114, 112, 112);
     padding: 0px 10px;
-    font-size: 13px; 
+    font-size: 13px;
+
 }
 
 ul li a:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
+    
 }
