@@ -17,10 +17,6 @@ a {
   top: 0;
 }
 
-.intuit-logo img {
-  opacity: 0.6;
-}
-
 .learn-more {
   font-size: 12px;
 }
@@ -28,7 +24,6 @@ a {
 .intuit-logo {
   display: grid;
   justify-content: center;
-  margin-top: 40px;
 }
 
 #sign-button {
@@ -50,9 +45,30 @@ input {
   border-radius: 5px;
 }
 
-.second-logo {
+.first-logo {
+  margin-top: 40px;
+  margin-bottom: -20px;
   opacity: 0.7;
-  margin-top: -10px;
+}
+
+.second-logo {
+  margin-left: -60px;
+}
+
+.second-logo img {
+  width: 30px;
+  padding: 10px 5px;
+  margin-bottom: -20px;
+}
+
+.second-logo a {
+  color: rgb(128, 125, 125);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.second-logo a:hover {
+  text-decoration: none;
 }
 
 .box-content {
@@ -80,7 +96,6 @@ form {
 h3 {
   font-size: 28px;
   font-weight: 400;
-  text-align: center;
 }
 
 .email {
@@ -129,12 +144,12 @@ footer p {
 .side-nav p {
   font-size: 13px;
   line-height: 20px;
-  text-align: center;
 }
 
 .recaptcha p {
   font-size: 11px;
-  text-align: center;
+  padding: 8px;
+  margin: 0 30px 10px 30px;
 }
 
 ul li {
@@ -142,7 +157,7 @@ ul li {
   display: inline;
 }
 
-ul li a {
+.footer-link a{
   color: rgb(114, 112, 112);
   padding: 0 10px;
   font-size: 13px;

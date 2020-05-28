@@ -14,18 +14,27 @@
 </head>
 
 <body>
-    <div class="side-nav">
-        <p>Already have an Intuit account? <br> <a href="">I forgot my User ID or Password</a></p>
-    </div>
+    <nav>
+        <div class="side-nav">
+            <p>Already have an Intuit account? <br> <a href="">I forgot my User ID or Password</a></p>
+        </div>
 
-    <button id="sign-button"> <img src="img/security.png" alt="" width="15"> Sign In</button>
+        <button id="sign-button"> <img src="img/security.png" alt="" width="15"> Sign In</button>
 
-    <div class="intuit-logo">
-        <a href="#!"><img src="img/Intuit-logo.png" alt="Intuit Logo" width="350"></a>
-        <a href="#!" class="second-logo"><img src="img/Intuit-logo-2.png" alt="" width="400" id="intuit-2"></a>
-    </div>
-
-    <div class="box-content">
+        <div class="intuit-logo">
+            <div class="first-logo">
+                <a href="#!"><img src="img/Intuit-logo.png" alt="Intuit Logo" width="350"></a>
+            </div>
+            <div class="second-logo">
+                <ul>
+                    <li><a href="#!"><img src="img/mint_2018_icon.png" alt="" id="intuit-2">mint</a></li>
+                    <li><a href="#!"><img src="img/quickbooks.png" alt="" id="intuit-2">quickbooks</a></li>
+                    <li><a href="#!"><img src="img/turbotax.png" alt="" id="intuit-2">turbotax</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="box-content">
         <div class="container">
             <form>
                 <div class="first-para">
@@ -36,18 +45,18 @@
                 </div>
                 <div class="email">
                     <p>Email address</p>
-                    <input type="text">
+                    <input type="email">
                 </div>
 
                 <div class="phone">
                     <p>Phone Number</p>
-                    <input type="text">
+                    <input type="tel">
                     <p> <span> Standard call, messaging or data rates may apply.</span></p>
                 </div>
 
                 <div class="password">
                     <p>Password</p>
-                    <input type="text" id="password">
+                    <input type="password" id="password">
                 </div>
                 <input type="submit" value="Create Account" class="create-account">
 
@@ -62,14 +71,16 @@
             <p>Invisible reCAPTCHA by <a href="">Google Privacy Policy</a> and <a href=""> Terms of
                     Use.</a></p>
         </div>
-    </div>
+    </main>
 
     <footer>
-        <ul>
-            <li><a href="">Legal</a></li>
-            <li><a href="">Privacy</a></li>
-            <li><a href="">Security</a></li>
-        </ul>
+        <div class="footer-link">
+            <ul>
+                <li><a href="">Legal</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Security</a></li>
+            </ul>
+        </div>
         <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
             trademarks of Intuit Inc. <br> Terms and conditions, features, support, pricing, and service options subject
             to change without notice.</p>
