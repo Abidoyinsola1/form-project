@@ -1,7 +1,7 @@
 ## Mint.com’s Sign up Page Clone
 This is a clone of Mint's sign up page, a part of the technical curriculum projects in Microverse.
 
-![screenshot](img/My Form.JPG)
+![Screenshot](/img/my-form.JPG)
 
 ## Built With
 
