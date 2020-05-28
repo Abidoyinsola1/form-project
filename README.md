@@ -10,7 +10,7 @@ This is a clone of Mint's sign up page, a part of the technical curriculum proje
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Abidoyinsola1/form-project/5116c28c29c48b63303c09cb55866971520d889b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Abidoyinsola1/form-project/3e3f33f2809d63114d4a7387109f894ac629ad2b/index.html)
 
 ## Author
 
