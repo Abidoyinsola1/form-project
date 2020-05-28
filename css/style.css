@@ -1,0 +1,168 @@
+body {
+  padding: 10px 30px 10px 30px;
+  background-color: #eceef1;
+  color: rgb(99, 97, 97);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.side-nav {
+  position: absolute;
+  right: 150px;
+  top: 0;
+}
+
+.learn-more {
+  font-size: 12px;
+}
+
+.intuit-logo {
+  display: grid;
+  justify-content: center;
+}
+
+#sign-button {
+  position: absolute;
+  right: 28px;
+  top: 12px;
+  background-color: #0077c5;
+  color: white;
+  font-size: 18px;
+  padding: 7px 12px;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+
+input {
+  width: 320px;
+  padding: 12px 10px;
+  border: 1px rgb(158, 158, 158) solid;
+  border-radius: 5px;
+}
+
+.first-logo {
+  margin-top: 40px;
+  margin-bottom: -20px;
+  opacity: 0.7;
+}
+
+.second-logo {
+  margin-left: -60px;
+}
+
+.second-logo img {
+  width: 30px;
+  padding: 10px 5px;
+  margin-bottom: -20px;
+}
+
+.second-logo a {
+  color: rgb(128, 125, 125);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.box-content {
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 3px;
+  border: 1px  solid rgb(209, 208, 208);
+}
+
+.container {
+  width: 387px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 12px;
+}
+
+form {
+  padding: 0 15px;
+}
+
+.first-para {
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.email {
+  margin-top: 10px;
+}
+
+.phone {
+  margin: 20px 0;
+  padding: 5px 0;
+}
+
+div span {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.password {
+  padding-bottom: 30px;
+}
+
+.create-account {
+  background-color: #0077c5;
+  color: white;
+  font-size: 20px;
+  width: 95%;
+  height: 50px;
+  box-shadow: 1px;
+  border-radius: 7px;
+}
+
+.condition {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.side-nav p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.recaptcha p {
+  font-size: 11px;
+  padding: 8px;
+  margin: 0 30px 10px 30px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+.footer-link a {
+  color: rgb(114, 112, 112);
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.second-logo a:hover {
+  text-decoration: none;
+}
